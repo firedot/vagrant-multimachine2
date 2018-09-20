@@ -8,8 +8,8 @@ Vagrant.configure("2") do |config|
       node.vm.hostname = vm_name
     end
   end
-    config.vm.define vm_name="mysql" do |node|
-      config.vm.provision "shell", path: "./scripts/mysql.sh"
-      node.vm.hostname = vm_name
-    end
+  config.vm.define vm_name="mysql" do |node|
+    config.vm.provision "shell", path: "./scripts/mysql.sh"
+    node.vm.hostname = vm_name
+  end
 end
