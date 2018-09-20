@@ -24,7 +24,7 @@ vagrant up
 
 **Done**
 
-Now you have two virtual machines named: 
+Now you have three virtual machines named: 
  * *web01*
  * *web02*
  * *mysql*
