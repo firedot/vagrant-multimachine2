@@ -25,9 +25,9 @@ vagrant up
 **Done**
 
 Now you have two virtual machines named: 
-*web01*
-*web02*
-*mysql*
+ * *web01*
+ * *web02*
+ * *mysql*
 
 You could enter them via SSH by typing: 
 ````
